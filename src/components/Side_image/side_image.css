@@ -1,0 +1,37 @@
+.side-background{
+    width: 50vw; 
+    height: 100vh; 
+    background: #0a81f0; 
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.border-radius1{
+    width: 208px; 
+    height: 208px;
+    left: 0;
+}
+
+.border-radius2{
+    width: 122px;
+    height: 114px;
+    bottom: 13rem;
+}
+.border-radius3{
+    width: 104px;
+    height: 104px;
+    top: 6rem; 
+    right: 10rem;
+    /* float: right; */
+}
+.border-radius1, .border-radius2, .border-radius3{
+   opacity: 30%; 
+   background: #D9D9D9;
+   border-radius: 9999px;
+   position: absolute;
+}
+img{
+    z-index: 1;
+    transform: translate(-2rem);
+}
+

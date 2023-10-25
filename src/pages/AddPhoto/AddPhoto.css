@@ -1,0 +1,56 @@
+.nav-new{
+    gap: 150px !important;
+}
+
+.link{
+    border: 2px solid red !important;
+}
+
+.nav-2{
+    left: 468px !important; 
+    top: 56px; 
+    gap: 200px;
+ }
+
+.upload-logo{
+    background-color: rgb(70, 67, 67);
+    
+}
+.defalut-profile-img-div{
+    background-color: red;
+}
+
+.profile-defalut-logo{
+width: 50px;
+height: 50px;
+transform: translate(0) !important;
+margin: 0 auto;
+color:white;
+}
+.profile-div{
+    margin-top: 20px;
+    margin-bottom: 25vh;
+}
+
+.defalut-profile-img-div{
+background-color: #B3B3B3;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 140px;
+height: 140px;
+border-radius: 50%;
+margin: 0 auto;
+}
+.profile-logo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+   transform: translate(0) !important;
+}
+
+#profile-input{
+    display: none;
+}
+

@@ -1,0 +1,61 @@
+.body-main{
+    right: 12rem; 
+    top: 9rem; 
+    text-align: center;
+    position: absolute;  
+    
+    /* border: 2px solid;  */
+}
+.form-head{
+    margin-bottom: 12px;
+    font-size: 34px;
+    font-family: Inter;
+}
+input{
+    padding-left: 16px;
+    padding-right: 5rem; 
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    border-radius: 4px; overflow: hidden; 
+    border: 1px #999999 solid; 
+    margin-bottom: 0.5rem;
+}
+label{
+    color: #808080;
+    font-size: 16px;
+    font-family: Inter;
+}
+.google-sign{
+    position: relative;
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    padding-right: 5rem;
+    display: flex;
+    background-color: white;
+    outline: none;
+    border: 1px solid grey;
+    
+}
+
+.google-sign img{
+    position: absolute;
+    left: 2rem;
+    top: 4px;
+    
+}
+
+.signup-text{
+    margin-left: 4rem;
+}
+
+img{
+    margin-left: 1.5rem;
+}
+
+.btn-login{
+    color: #0267FF;
+}
+.text-already{
+    padding: 0.8rem 1.8rem;
+    color: #A6A6A6;
+}

@@ -1,0 +1,14 @@
+.nav{
+   left: 768px; 
+   top: 56px; 
+   position: absolute;
+   justify-content: space-between; 
+   align-items: flex-start; 
+   width: 40vw;
+    display: inline-flex;
+}
+
+
+
+
+
