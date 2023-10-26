@@ -17,7 +17,7 @@ function LogIn() {
         <div>
           <Navigation>
             <span><b>Step 1</b> of 4</span>
-            <Link to='/register'><span>Exit</span></Link>
+            <Link to='/'><span>Exit</span></Link>
           </Navigation>
           <Body>
           <p className='form-head'><b>Log In</b></p>
@@ -34,7 +34,7 @@ function LogIn() {
                 Password
                 </label>
                 <br />
-                <input type="email" name="email" placeholder='**************' />
+                <input type="password" name="email" placeholder='**************' />
                 </form>
                 </div>
                 <br />
@@ -44,7 +44,7 @@ function LogIn() {
                   <img src={logo} alt='dfd' />
                   <p className='signup-text'>Log In with Google</p>
                 </button>
-                <p className='text-already'>Don't have an account?<Link to="/register"><b className='btn-login'>Register</b></Link></p>
+                <p className='text-already'>Don't have an account?<Link to="/"><b className='btn-login'>Register</b></Link></p>
           </Body>
         </div>
     </div>

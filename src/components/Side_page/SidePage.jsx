@@ -38,7 +38,7 @@ function SidePage() {
                 Password
                 </label>
                 <br />
-                <input type="email" name="email" placeholder='**************' />
+                <input type="password" name="email" placeholder='**************' />
                 </form>
                 <br />
                 <Button content={'Create Account'} />
